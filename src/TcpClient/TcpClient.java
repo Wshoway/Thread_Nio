@@ -13,7 +13,7 @@ public class TcpClient extends Thread{
 		this.num=num;
 	}
 	public static void main(String[] args) throws IOException, IOException{
-		for(int i=0;i<10000;i++){
+		for(int i=0;i<100;i++){
 			TcpClient tcpClient = new TcpClient(i);
 			tcpClient.start();
 		}
