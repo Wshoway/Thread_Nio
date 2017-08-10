@@ -1,1 +1,3 @@
-# Thread_Nio
+﻿# Thread_Nio
+
+服务端阻塞接收TCP请求，接收后多线程处理(线程池)，NIO非阻塞回传信息。
